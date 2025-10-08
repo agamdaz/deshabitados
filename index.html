@@ -74,9 +74,18 @@
                     flex-basis: 23.5%;
                 }                
             }
-            footer {
+            .footer__container {
+                display: flex;
                 border-top: 1px solid black;
                 padding: 2rem 0;
+            }
+            .footer__license img {
+                max-width: 1em;
+                max-height:1em;
+                margin-left: .2rem;
+            }
+            .footer__rrss {
+                margin-left: auto;
             }
         </style>
     </head>
@@ -130,8 +139,13 @@
                 </div>
             </section>
         </main>
-        <footer>
-            Deshabitados &copy; 2025 por Aurelio Gamero Diaz tiene licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+        <footer class="footer__container">
+            <div class="footer__license">
+                Deshabitados &copy; 2025 por Aurelio Gamero Diaz tiene licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="Icono de Creative Commons"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="Icono de atribución"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="Icono de no comercial"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="Icono de misma licencia">
+            </div>
+            <div class="footer__rrss">
+                <a href="https://www.linkedin.com/in/agamdaz/">LinkedIn</a> | <a href="https://github.com/agamdaz/deshabitados">GitHub</a>
+            </div>
         </footer>
     </body>
 </html>

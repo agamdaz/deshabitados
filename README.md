@@ -1,4 +1,4 @@
-# deshabitados
+# Deshabitados
 
 «Deshabitados» es un proyecto de ilustración en el que se hace una interpretación de las imágenes aéreas de algunos pueblos deshabitados de la geografía española.
 
